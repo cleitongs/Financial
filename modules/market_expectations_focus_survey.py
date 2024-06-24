@@ -37,7 +37,7 @@ def layout_st():
             elif index == 'Inflation - Next 12 months':
                 inflation_expectations(indicator)
 
-@functools.lru_cache()
+
 def dates():
     today = datetime.today()
     one_year_ago = today.replace(year=today.year - 1, month=today.month, day=1)
