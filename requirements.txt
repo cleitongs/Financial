@@ -1,5 +1,5 @@
 pandas
-bcb 
+python-bcb
 plotly
 datetime
 streamlit
