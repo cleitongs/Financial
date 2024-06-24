@@ -3,7 +3,6 @@ import bcb
 import plotly.graph_objects as go
 from datetime import datetime
 import streamlit as st
-import functools
 
 def layout_st():
     st.title('Market Expectations')
@@ -59,8 +58,6 @@ def dates():
             
     return start_date, reference_date, months_years
 
-
-@functools.lru_cache(maxsize=128)
 def fetch_indicator_expectations(endpoint:str,indicator:str):
     start_date = dates()[0]
     em = bcb.Expectativas()
