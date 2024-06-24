@@ -1,0 +1,6 @@
+pandas
+bcb 
+plotly
+datetime
+streamlit
+functools
